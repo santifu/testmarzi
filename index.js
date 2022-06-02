@@ -20,7 +20,7 @@ var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
-  "//www.marzipano.net/media/outdoors/{z}/{f}/{y}/{x}.jpg",
+  "//www.marzipano.net/media/cubemap/{f}.jpg",
   { cubeMapPreviewUrl: "//www.marzipano.net/media/outdoors/preview.jpg" });
 
 // Create geometry.
